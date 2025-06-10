@@ -1,0 +1,596 @@
+body{
+  background-color: red;
+  padding-bottom: 500px;
+}
+
+.medical-backgrownd-image{
+  margin-left: 250px;
+}
+
+
+.tittled-header{
+  background: linear-gradient(90deg, blue, white, red);
+
+  
+}
+
+.tittle-header{
+  color: white;
+}
+
+.logo-sizing{
+  border-radius: 80%;
+  animation-duration: 5s;
+  animation-name: spin;
+
+}
+
+@keyframes spin{
+  0%{
+    border-radius: 100%;
+    scale: 0.5;
+  }
+  50%{
+  transform: translate-Z(1);
+    
+  }
+
+  100%{
+    border-radius: 50%;
+    transform: rotate(360deg);
+    scale: 1;
+
+  }
+}
+
+/* styling the head section */
+header{
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+
+}
+.container{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+
+.tittled-header{
+  margin-left: 40px;
+  color: black;
+}
+
+.tittled-h2{
+  display: inline;
+}
+
+.tittled-header, .thumb-nails, .ul-list{
+  margin-top: 40px;
+}
+
+.nav-container{
+  display: block;
+}
+
+.un-ordered-list-div{
+  display: block;
+
+}
+
+.ul-list{
+  display: flex;
+  flex-direction: row;
+  font-size:x-large;
+  list-style-type: none; 
+}
+
+.list-items{
+margin-left: 80px;
+margin-right: 80px;
+}
+
+.anch-list-items{
+  color: black;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.thumb-nails{
+  display: none;
+ 
+}
+
+
+.thumbnail-togle{
+  width: 20px;
+  cursor: pointer;
+}
+
+
+/* styling all main hoover items for the Headers */
+
+ .anch-list-items:hover{
+color: red;
+opacity: 20;
+
+
+}
+
+.list-items:hover{
+  border: 4px 4px solid black;
+  /* background-color: aquamarine; */
+  box-sizing: border-box;
+  /* border: 20, 15,  solid, black; */
+  
+}
+
+
+/* styling all general images */
+
+img{
+  width: 7rem;
+}
+
+/* styling all h1, h2, h3,p and a elements  */
+
+h1, h2, h3, p, a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: larger;
+}
+
+/* styling all ul, li elements */
+
+ul, li{
+  list-style-type: none;
+
+
+}
+
+/* styling  all span tags */
+span{
+  color: aliceblue;
+  
+}
+
+/* styling the main section class */
+.main-section{
+  margin-top: 100px;
+}
+
+/* styling first nirsing image photo */
+.medical-backgrownd-image{
+  width: 40rem;
+  margin-left: 40rem;
+  margin-top: 6rem;
+}
+
+/* hide all first social media display */
+.side-bar-social-media{
+  display:none
+}
+
+/* styling main ul list item */
+.courses-list{
+ /* display: flex;
+ flex-direction: row;
+ gap: 30px;
+ margin-left: 250spx;
+   */
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap:16px;
+ cursor: pointer;
+ margin-left: 40px;
+ color: white;
+}
+
+.course-lit-item{
+  margin-bottom: 20px;
+  cursor: pointer;
+  list-style-type: lower-alpha;
+}
+
+
+/* .lists-of-courses-div{
+  display: block;
+} */
+
+
+
+/* image background styling  */
+.main-section-background, .under-list-images{
+  display: block;
+}
+
+.large-background-image{
+  background-image: url(/IMAGES/medical\ image\ for\ dan.webp);
+  width: 129rem;
+  height: 70rem;
+  
+}
+
+.under-list-images{
+  position: relative;
+}
+
+.name-span{
+  color: blue;
+}
+
+
+
+.postionabsolute-information{
+  position: absolute;
+  top: 30px;
+  color: black;
+  margin-left: 25rem;
+  font-size: xx-large;
+}
+
+.postionabsolute-information::before{
+  content: 'Enrol now...';
+  color: red;
+  background-color: blue;
+  display: block;
+  box-shadow: -20px 20px 45px;
+}
+
+.slide{
+  aspect-ratio: 1/1;
+}
+
+/* styling of social media */
+.info-div{
+  position: absolute;
+  top: 40rem;
+  margin-left: 40rem; 
+}
+
+.div-h2{
+color:white;
+font-weight: bold;
+margin-left: 100px;
+}
+
+.info-social-media-div{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-left: -5rem;
+}
+
+.individual-info-social-links{
+padding: 15px;
+}
+
+.img-facebook{
+border-radius: 50%;
+}
+
+.footer-container{
+  display: block;
+ 
+}
+
+.infor-div{
+  margin-left: 900px;
+}
+
+.section-divs{
+ display: flex;
+ justify-content: space-between;
+
+}
+.partnership-img{
+  border-radius: 50%;
+}
+
+.sliders{
+  position:relative;
+  margin-left: -20px;
+  
+}
+
+.sliders img{
+  display: none;
+}
+
+img.showSingleImage{
+  display: block;
+}
+
+.main-section-background{
+  margin-top: 50px;
+}
+
+.facilities{
+  text-transform: uppercase;
+  margin-left: 33rem;
+}
+
+
+/* next button slides */
+.nextPrevBtn{
+  position: absolute;
+  font-size: x-large;
+  margin-left: 41rem;
+  font-weight: 900px;
+  top:50%;
+  background:transparent;
+  z-index: 100;
+border: none;
+}
+
+.prev{
+}
+.next{
+ margin-left:1237px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* At media screen larg styling  */
+@media (max-width: 1200px){
+  body{
+    background-color: rgb(20, 12, 66);
+  }
+  .tittled-header{
+    font-size: large;
+    margin-top: 40px;
+    white-space: nowrap;
+    margin-left: 3px;
+    padding-left: 0px;
+    flex: 1;
+    background: aliceblue
+  }
+  .tittle-header{
+    color: black;
+  }
+
+ 
+  .list-items{
+    margin-left: -12px;
+    padding-left :0px;
+  }
+
+  .anch-list-items{
+    margin-left: -5px;
+    margin-right: -13px;
+  }
+
+  .info-div{
+  margin-left: 180px;}
+
+  .un-ordered-list-div { display: block;}
+
+  .medical-backgrownd-image{
+    margin-left: 250px;
+  }
+
+  .info-div{
+  position: absolute;
+  top: 40rem;
+  margin-left: 16rem; 
+}
+
+footer .infor-div{
+margin-left: 28rem;
+margin-bottom: 40px;
+}
+
+.coppy{
+
+font-weight: 700;
+color: white;}
+
+
+ 
+
+  .large-background-image{
+    max-width: 100%;
+  }
+
+  .postionabsolute-information{
+    margin-left: 0px;
+  }
+
+  .nextPrevBtn{
+    font-size: x-large;
+    margin-left:270px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    background:transparent;
+}
+
+.next{
+  margin-left:850px;
+}
+
+
+
+
+
+
+
+/* styling all the media querries */
+@media(max-width: 570px){
+  body{
+    background-color: rgb(125, 13, 13);
+  }
+  .container{
+  height: 80px;
+  }
+
+  .tittled-header{
+    margin-top: 20px;
+    margin-left: 16px;
+    font-size: medium;
+
+  }
+
+  .under-list-images{
+    margin-top: 100px;
+  }
+  .un-ordered-list-div{
+ display: block;
+ background-color: rgb(9, 41, 70);
+ position: absolute;
+ left: 380px;
+ margin-top: 80px;
+ animation-duration: 2s ;
+ animation-name:slideOut ;
+ animation-direction: reverse;
+ z-index: 0;
+ 
+ 
+}
+
+@keyframes slideOut
+{
+0%{
+
+scalea:2
+}
+50%{
+ scale: 1.4
+}
+
+100%{
+scale:1.2
+}
+
+} 
+
+.ul-list{
+ display: block;
+ padding-left: 0px;
+}
+.list-items{
+ margin: 40px;
+ margin-bottom: 12px;
+}
+
+.anch-list-items{
+  color: aliceblue;
+}
+
+.general-style-button{
+  position: absolute;
+  right: 0;
+  
+}
+
+.thumb-nails{
+  display: grid;
+grid-template-columns: repeat(2,1fr);
+height: 30px;
+gap:10px;
+}
+
+
+/* .toggle-cancel-btn{
+  position: absolute;
+  top: 80px;
+  right: 0;
+} */
+
+.medical-backgrownd-image{
+  margin-left: 2rem;
+  width: 450px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.corver-images .absolute-image{
+  color: black;
+}
+
+ .infor-div{
+  margin-left: 90px;
+ }
+
+.courses-list{
+  margin-left: 8px;
+  
+}
+
+.course-ul-list-second,.course-ul-list-third{
+line-height: 40px;
+}
+
+.info-div{
+  display:none;
+}
+.large-background-image{
+  max-width: 521px;
+ max-height:270px ;
+}
+.postionabsolute-information{
+  font-size: larger;
+  margin-left: 10px;
+  max-width: 500px;
+  margin-top: 150px;
+  color: aliceblue;
+}
+
+.js-togglesBars{
+  display:none;
+
+}
+
+/* .nextPrevBtn{
+  font-size: x-large;
+  margin-left:30px;
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  background:transparent;
+} */
+
+.prev{
+  margin-left: 38px;
+}
+.next{
+ position: absolute;
+ margin-left: 450px;
+}
+
+.facilities{
+  margin-left: 40px;
+}
+
+.slides{
+margin-left: 30px;
+
+}
+
+/* .infor-div{
+ display: none;
+} */
+}
+}
+
+
+/* slidding images */
+
+
+
+
+
+
+
+

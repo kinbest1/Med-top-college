@@ -1,0 +1,60 @@
+body{
+  background-color: blue;
+  color: white;
+  font-size: larger;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+
+
+}
+
+.inputHheadText{
+  color: black;
+  font-weight: bolder;
+  margin-left: 800px;
+}
+
+.registratiomInput{
+  margin-left: 900px;
+  margin-top: 300px;
+  display: block;
+
+}
+.regigsterDiv{
+  display: block;
+}
+
+.labels{
+font-size: x-large;
+}
+
+.names-input{
+display: block;
+margin-bottom: 20px;
+}
+
+.inputAll{
+  height: 30px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.inputAllt::placeholder{
+padding: 40px;
+font-size: x-large;
+
+}
+
+.largeText{
+  font: bolder;
+}
+
+.pHead{
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+
+
